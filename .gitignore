@@ -1,3 +1,6 @@
+project-dog-classification/lfw/
+project-dog-classification/dogImages/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
