@@ -1,0 +1,2 @@
+Training modelmodel_scratch_BN.pt
+Batch: 20, Training Loss: 0.636366
