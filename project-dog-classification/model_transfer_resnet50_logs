@@ -1,0 +1,805 @@
+Training model model_transfer_resnet50.pt
+Batch: 20, Training Loss: 5.102212
+Batch: 40, Training Loss: 4.821164
+Batch: 60, Training Loss: 4.505368
+Batch: 80, Training Loss: 4.260410
+Batch: 100, Training Loss: 4.020576
+Batch: 120, Training Loss: 3.815931
+Batch: 140, Training Loss: 3.628956
+Batch: 160, Training Loss: 3.456011
+Batch: 180, Training Loss: 3.325509
+Batch: 200, Training Loss: 3.193416
+Batch: 220, Training Loss: 3.075784
+Batch: 240, Training Loss: 2.984688
+Batch: 260, Training Loss: 2.893465
+Batch: 280, Training Loss: 2.823284
+Batch: 300, Training Loss: 2.749756
+Batch: 320, Training Loss: 2.677194
+Epoch: 1 	Training Loss: 2.641583 	Validation Loss: 0.880851
+Valid Accuracy: 74.970% (626.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 1.400561
+Batch: 40, Training Loss: 1.465049
+Batch: 60, Training Loss: 1.456913
+Batch: 80, Training Loss: 1.458644
+Batch: 100, Training Loss: 1.455655
+Batch: 120, Training Loss: 1.439780
+Batch: 140, Training Loss: 1.429417
+Batch: 160, Training Loss: 1.430145
+Batch: 180, Training Loss: 1.417584
+Batch: 200, Training Loss: 1.410505
+Batch: 220, Training Loss: 1.399636
+Batch: 240, Training Loss: 1.396290
+Batch: 260, Training Loss: 1.384433
+Batch: 280, Training Loss: 1.382143
+Batch: 300, Training Loss: 1.374167
+Batch: 320, Training Loss: 1.363727
+Epoch: 2 	Training Loss: 1.356974 	Validation Loss: 0.600307
+Valid Accuracy: 81.198% (678.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 1.166189
+Batch: 40, Training Loss: 1.212639
+Batch: 60, Training Loss: 1.182616
+Batch: 80, Training Loss: 1.182904
+Batch: 100, Training Loss: 1.162023
+Batch: 120, Training Loss: 1.162643
+Batch: 140, Training Loss: 1.183967
+Batch: 160, Training Loss: 1.181364
+Batch: 180, Training Loss: 1.164537
+Batch: 200, Training Loss: 1.163718
+Batch: 220, Training Loss: 1.155975
+Batch: 240, Training Loss: 1.158596
+Batch: 260, Training Loss: 1.160810
+Batch: 280, Training Loss: 1.150629
+Batch: 300, Training Loss: 1.150677
+Batch: 320, Training Loss: 1.151245
+Epoch: 3 	Training Loss: 1.141070 	Validation Loss: 0.535382
+Valid Accuracy: 83.713% (699.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.959236
+Batch: 40, Training Loss: 1.034004
+Batch: 60, Training Loss: 1.054289
+Batch: 80, Training Loss: 1.041294
+Batch: 100, Training Loss: 1.032056
+Batch: 120, Training Loss: 1.035168
+Batch: 140, Training Loss: 1.016852
+Batch: 160, Training Loss: 1.019545
+Batch: 180, Training Loss: 1.029900
+Batch: 200, Training Loss: 1.042426
+Batch: 220, Training Loss: 1.046764
+Batch: 240, Training Loss: 1.038073
+Batch: 260, Training Loss: 1.031021
+Batch: 280, Training Loss: 1.027683
+Batch: 300, Training Loss: 1.034775
+Batch: 320, Training Loss: 1.037381
+Epoch: 4 	Training Loss: 1.041160 	Validation Loss: 0.487456
+Valid Accuracy: 84.311% (704.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.911790
+Batch: 40, Training Loss: 0.893529
+Batch: 60, Training Loss: 0.927361
+Batch: 80, Training Loss: 0.952036
+Batch: 100, Training Loss: 0.957338
+Batch: 120, Training Loss: 0.955904
+Batch: 140, Training Loss: 0.961190
+Batch: 160, Training Loss: 0.947968
+Batch: 180, Training Loss: 0.953208
+Batch: 200, Training Loss: 0.950815
+Batch: 220, Training Loss: 0.947535
+Batch: 240, Training Loss: 0.955770
+Batch: 260, Training Loss: 0.951911
+Batch: 280, Training Loss: 0.959159
+Batch: 300, Training Loss: 0.962918
+Batch: 320, Training Loss: 0.961314
+Epoch: 5 	Training Loss: 0.959569 	Validation Loss: 0.476898
+Valid Accuracy: 85.509% (714.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.963721
+Batch: 40, Training Loss: 0.944696
+Batch: 60, Training Loss: 0.899505
+Batch: 80, Training Loss: 0.884493
+Batch: 100, Training Loss: 0.880510
+Batch: 120, Training Loss: 0.887290
+Batch: 140, Training Loss: 0.902404
+Batch: 160, Training Loss: 0.903734
+Batch: 180, Training Loss: 0.904492
+Batch: 200, Training Loss: 0.914346
+Batch: 220, Training Loss: 0.921509
+Batch: 240, Training Loss: 0.926806
+Batch: 260, Training Loss: 0.932504
+Batch: 280, Training Loss: 0.937440
+Batch: 300, Training Loss: 0.939639
+Batch: 320, Training Loss: 0.936085
+Epoch: 6 	Training Loss: 0.933664 	Validation Loss: 0.485398
+Valid Accuracy: 85.509% (714.0/835.0)
+
+
+Batch: 20, Training Loss: 0.944713
+Batch: 40, Training Loss: 0.903055
+Batch: 60, Training Loss: 0.889646
+Batch: 80, Training Loss: 0.918415
+Batch: 100, Training Loss: 0.911078
+Batch: 120, Training Loss: 0.896369
+Batch: 140, Training Loss: 0.889419
+Batch: 160, Training Loss: 0.874346
+Batch: 180, Training Loss: 0.858804
+Batch: 200, Training Loss: 0.860617
+Batch: 220, Training Loss: 0.866106
+Batch: 240, Training Loss: 0.868210
+Batch: 260, Training Loss: 0.868751
+Batch: 280, Training Loss: 0.868120
+Batch: 300, Training Loss: 0.873386
+Batch: 320, Training Loss: 0.872643
+Epoch: 7 	Training Loss: 0.880490 	Validation Loss: 0.475012
+Valid Accuracy: 85.868% (717.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.767467
+Batch: 40, Training Loss: 0.811686
+Batch: 60, Training Loss: 0.778631
+Batch: 80, Training Loss: 0.849402
+Batch: 100, Training Loss: 0.848826
+Batch: 120, Training Loss: 0.846361
+Batch: 140, Training Loss: 0.846910
+Batch: 160, Training Loss: 0.848277
+Batch: 180, Training Loss: 0.851378
+Batch: 200, Training Loss: 0.863842
+Batch: 220, Training Loss: 0.867781
+Batch: 240, Training Loss: 0.865800
+Batch: 260, Training Loss: 0.868662
+Batch: 280, Training Loss: 0.861061
+Batch: 300, Training Loss: 0.862239
+Batch: 320, Training Loss: 0.860377
+Epoch: 8 	Training Loss: 0.862383 	Validation Loss: 0.442087
+Valid Accuracy: 85.269% (712.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.804678
+Batch: 40, Training Loss: 0.881130
+Batch: 60, Training Loss: 0.875671
+Batch: 80, Training Loss: 0.875575
+Batch: 100, Training Loss: 0.877637
+Batch: 120, Training Loss: 0.871197
+Batch: 140, Training Loss: 0.858918
+Batch: 160, Training Loss: 0.854958
+Batch: 180, Training Loss: 0.846640
+Batch: 200, Training Loss: 0.847248
+Batch: 220, Training Loss: 0.854946
+Batch: 240, Training Loss: 0.850668
+Batch: 260, Training Loss: 0.856820
+Batch: 280, Training Loss: 0.859646
+Batch: 300, Training Loss: 0.863576
+Batch: 320, Training Loss: 0.868480
+Epoch: 9 	Training Loss: 0.872131 	Validation Loss: 0.474435
+Valid Accuracy: 85.150% (711.0/835.0)
+
+
+Batch: 20, Training Loss: 0.688343
+Batch: 40, Training Loss: 0.741524
+Batch: 60, Training Loss: 0.767404
+Batch: 80, Training Loss: 0.814119
+Batch: 100, Training Loss: 0.829758
+Batch: 120, Training Loss: 0.808700
+Batch: 140, Training Loss: 0.804338
+Batch: 160, Training Loss: 0.787512
+Batch: 180, Training Loss: 0.786688
+Batch: 200, Training Loss: 0.791887
+Batch: 220, Training Loss: 0.798044
+Batch: 240, Training Loss: 0.799160
+Batch: 260, Training Loss: 0.804972
+Batch: 280, Training Loss: 0.818622
+Batch: 300, Training Loss: 0.821080
+Batch: 320, Training Loss: 0.831420
+Epoch: 10 	Training Loss: 0.830066 	Validation Loss: 0.438674
+Valid Accuracy: 85.988% (718.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.870563
+Batch: 40, Training Loss: 0.846289
+Batch: 60, Training Loss: 0.829752
+Batch: 80, Training Loss: 0.847389
+Batch: 100, Training Loss: 0.850063
+Batch: 120, Training Loss: 0.833414
+Batch: 140, Training Loss: 0.855028
+Batch: 160, Training Loss: 0.861402
+Batch: 180, Training Loss: 0.857089
+Batch: 200, Training Loss: 0.844431
+Batch: 220, Training Loss: 0.841600
+Batch: 240, Training Loss: 0.843674
+Batch: 260, Training Loss: 0.847454
+Batch: 280, Training Loss: 0.841265
+Batch: 300, Training Loss: 0.843813
+Batch: 320, Training Loss: 0.849091
+Epoch: 11 	Training Loss: 0.846139 	Validation Loss: 0.421346
+Valid Accuracy: 86.228% (720.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.871331
+Batch: 40, Training Loss: 0.865499
+Batch: 60, Training Loss: 0.812855
+Batch: 80, Training Loss: 0.794677
+Batch: 100, Training Loss: 0.808231
+Batch: 120, Training Loss: 0.792951
+Batch: 140, Training Loss: 0.803166
+Batch: 160, Training Loss: 0.805657
+Batch: 180, Training Loss: 0.808094
+Batch: 200, Training Loss: 0.806518
+Batch: 220, Training Loss: 0.803846
+Batch: 240, Training Loss: 0.816754
+Batch: 260, Training Loss: 0.809042
+Batch: 280, Training Loss: 0.809810
+Batch: 300, Training Loss: 0.808286
+Batch: 320, Training Loss: 0.806135
+Epoch: 12 	Training Loss: 0.808116 	Validation Loss: 0.489760
+Valid Accuracy: 83.353% (696.0/835.0)
+
+
+Batch: 20, Training Loss: 0.768464
+Batch: 40, Training Loss: 0.747709
+Batch: 60, Training Loss: 0.714866
+Batch: 80, Training Loss: 0.727036
+Batch: 100, Training Loss: 0.722767
+Batch: 120, Training Loss: 0.714311
+Batch: 140, Training Loss: 0.713261
+Batch: 160, Training Loss: 0.721679
+Batch: 180, Training Loss: 0.730063
+Batch: 200, Training Loss: 0.734674
+Batch: 220, Training Loss: 0.734676
+Batch: 240, Training Loss: 0.730206
+Batch: 260, Training Loss: 0.742475
+Batch: 280, Training Loss: 0.742444
+Batch: 300, Training Loss: 0.744619
+Batch: 320, Training Loss: 0.755998
+Epoch    12: reducing learning rate of group 0 to 3.7500e-02.
+Epoch: 13 	Training Loss: 0.759219 	Validation Loss: 0.449208
+Valid Accuracy: 85.509% (714.0/835.0)
+
+
+Batch: 20, Training Loss: 0.802760
+Batch: 40, Training Loss: 0.736681
+Batch: 60, Training Loss: 0.718120
+Batch: 80, Training Loss: 0.727165
+Batch: 100, Training Loss: 0.715327
+Batch: 120, Training Loss: 0.702306
+Batch: 140, Training Loss: 0.714558
+Batch: 160, Training Loss: 0.703201
+Batch: 180, Training Loss: 0.706107
+Batch: 200, Training Loss: 0.706591
+Batch: 220, Training Loss: 0.716902
+Batch: 240, Training Loss: 0.712169
+Batch: 260, Training Loss: 0.707087
+Batch: 280, Training Loss: 0.699591
+Batch: 300, Training Loss: 0.703261
+Batch: 320, Training Loss: 0.700504
+Epoch: 14 	Training Loss: 0.700600 	Validation Loss: 0.374269
+Valid Accuracy: 87.904% (734.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.631860
+Batch: 40, Training Loss: 0.690958
+Batch: 60, Training Loss: 0.709584
+Batch: 80, Training Loss: 0.717525
+Batch: 100, Training Loss: 0.733000
+Batch: 120, Training Loss: 0.726872
+Batch: 140, Training Loss: 0.714096
+Batch: 160, Training Loss: 0.702395
+Batch: 180, Training Loss: 0.708376
+Batch: 200, Training Loss: 0.699177
+Batch: 220, Training Loss: 0.701256
+Batch: 240, Training Loss: 0.693939
+Batch: 260, Training Loss: 0.688849
+Batch: 280, Training Loss: 0.689856
+Batch: 300, Training Loss: 0.689526
+Batch: 320, Training Loss: 0.692655
+Epoch: 15 	Training Loss: 0.689904 	Validation Loss: 0.383531
+Valid Accuracy: 86.587% (723.0/835.0)
+
+
+Batch: 20, Training Loss: 0.707575
+Batch: 40, Training Loss: 0.707954
+Batch: 60, Training Loss: 0.690523
+Batch: 80, Training Loss: 0.677721
+Batch: 100, Training Loss: 0.685975
+Batch: 120, Training Loss: 0.679913
+Batch: 140, Training Loss: 0.683860
+Batch: 160, Training Loss: 0.704601
+Batch: 180, Training Loss: 0.696778
+Batch: 200, Training Loss: 0.687347
+Batch: 220, Training Loss: 0.695185
+Batch: 240, Training Loss: 0.696854
+Batch: 260, Training Loss: 0.705119
+Batch: 280, Training Loss: 0.708425
+Batch: 300, Training Loss: 0.701299
+Batch: 320, Training Loss: 0.696296
+Epoch    15: reducing learning rate of group 0 to 1.8750e-02.
+Epoch: 16 	Training Loss: 0.700540 	Validation Loss: 0.386931
+Valid Accuracy: 86.707% (724.0/835.0)
+
+
+Batch: 20, Training Loss: 0.675896
+Batch: 40, Training Loss: 0.654057
+Batch: 60, Training Loss: 0.594201
+Batch: 80, Training Loss: 0.582122
+Batch: 100, Training Loss: 0.596872
+Batch: 120, Training Loss: 0.610606
+Batch: 140, Training Loss: 0.613359
+Batch: 160, Training Loss: 0.615928
+Batch: 180, Training Loss: 0.628428
+Batch: 200, Training Loss: 0.639371
+Batch: 220, Training Loss: 0.635948
+Batch: 240, Training Loss: 0.643238
+Batch: 260, Training Loss: 0.648983
+Batch: 280, Training Loss: 0.645505
+Batch: 300, Training Loss: 0.653686
+Batch: 320, Training Loss: 0.650699
+Epoch: 17 	Training Loss: 0.650739 	Validation Loss: 0.351292
+Valid Accuracy: 88.503% (739.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.618353
+Batch: 40, Training Loss: 0.666903
+Batch: 60, Training Loss: 0.683832
+Batch: 80, Training Loss: 0.684203
+Batch: 100, Training Loss: 0.677311
+Batch: 120, Training Loss: 0.678839
+Batch: 140, Training Loss: 0.657882
+Batch: 160, Training Loss: 0.665542
+Batch: 180, Training Loss: 0.662426
+Batch: 200, Training Loss: 0.658985
+Batch: 220, Training Loss: 0.650544
+Batch: 240, Training Loss: 0.652221
+Batch: 260, Training Loss: 0.650019
+Batch: 280, Training Loss: 0.644977
+Batch: 300, Training Loss: 0.642109
+Batch: 320, Training Loss: 0.646139
+Epoch: 18 	Training Loss: 0.644047 	Validation Loss: 0.365118
+Valid Accuracy: 88.862% (742.0/835.0)
+
+
+Batch: 20, Training Loss: 0.602248
+Batch: 40, Training Loss: 0.607131
+Batch: 60, Training Loss: 0.621985
+Batch: 80, Training Loss: 0.614085
+Batch: 100, Training Loss: 0.643120
+Batch: 120, Training Loss: 0.623128
+Batch: 140, Training Loss: 0.626790
+Batch: 160, Training Loss: 0.627978
+Batch: 180, Training Loss: 0.626201
+Batch: 200, Training Loss: 0.621201
+Batch: 220, Training Loss: 0.632215
+Batch: 240, Training Loss: 0.628298
+Batch: 260, Training Loss: 0.626173
+Batch: 280, Training Loss: 0.624570
+Batch: 300, Training Loss: 0.626810
+Batch: 320, Training Loss: 0.626622
+Epoch    18: reducing learning rate of group 0 to 9.3750e-03.
+Epoch: 19 	Training Loss: 0.626107 	Validation Loss: 0.364224
+Valid Accuracy: 87.904% (734.0/835.0)
+
+
+Batch: 20, Training Loss: 0.585748
+Batch: 40, Training Loss: 0.623275
+Batch: 60, Training Loss: 0.618606
+Batch: 80, Training Loss: 0.619369
+Batch: 100, Training Loss: 0.612093
+Batch: 120, Training Loss: 0.633298
+Batch: 140, Training Loss: 0.625741
+Batch: 160, Training Loss: 0.627980
+Batch: 180, Training Loss: 0.620041
+Batch: 200, Training Loss: 0.629396
+Batch: 220, Training Loss: 0.627770
+Batch: 240, Training Loss: 0.627585
+Batch: 260, Training Loss: 0.625379
+Batch: 280, Training Loss: 0.623763
+Batch: 300, Training Loss: 0.614429
+Batch: 320, Training Loss: 0.608417
+Epoch: 20 	Training Loss: 0.609546 	Validation Loss: 0.352327
+Valid Accuracy: 88.503% (739.0/835.0)
+
+
+Batch: 20, Training Loss: 0.627865
+Batch: 40, Training Loss: 0.623768
+Batch: 60, Training Loss: 0.626239
+Batch: 80, Training Loss: 0.641900
+Batch: 100, Training Loss: 0.640488
+Batch: 120, Training Loss: 0.648723
+Batch: 140, Training Loss: 0.637162
+Batch: 160, Training Loss: 0.631293
+Batch: 180, Training Loss: 0.631451
+Batch: 200, Training Loss: 0.626594
+Batch: 220, Training Loss: 0.622601
+Batch: 240, Training Loss: 0.618802
+Batch: 260, Training Loss: 0.619160
+Batch: 280, Training Loss: 0.620726
+Batch: 300, Training Loss: 0.613057
+Batch: 320, Training Loss: 0.610663
+Epoch    20: reducing learning rate of group 0 to 4.6875e-03.
+Epoch: 21 	Training Loss: 0.604970 	Validation Loss: 0.358763
+Valid Accuracy: 88.623% (740.0/835.0)
+
+
+Batch: 20, Training Loss: 0.583677
+Batch: 40, Training Loss: 0.615336
+Batch: 60, Training Loss: 0.646204
+Batch: 80, Training Loss: 0.629405
+Batch: 100, Training Loss: 0.609807
+Batch: 120, Training Loss: 0.613557
+Batch: 140, Training Loss: 0.621697
+Batch: 160, Training Loss: 0.606966
+Batch: 180, Training Loss: 0.608972
+Batch: 200, Training Loss: 0.606479
+Batch: 220, Training Loss: 0.610920
+Batch: 240, Training Loss: 0.612620
+Batch: 260, Training Loss: 0.613805
+Batch: 280, Training Loss: 0.616182
+Batch: 300, Training Loss: 0.609715
+Batch: 320, Training Loss: 0.611442
+Epoch: 22 	Training Loss: 0.613127 	Validation Loss: 0.349280
+Valid Accuracy: 88.024% (735.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.665649
+Batch: 40, Training Loss: 0.615602
+Batch: 60, Training Loss: 0.596310
+Batch: 80, Training Loss: 0.612053
+Batch: 100, Training Loss: 0.627020
+Batch: 120, Training Loss: 0.614901
+Batch: 140, Training Loss: 0.603198
+Batch: 160, Training Loss: 0.616809
+Batch: 180, Training Loss: 0.616351
+Batch: 200, Training Loss: 0.608338
+Batch: 220, Training Loss: 0.605374
+Batch: 240, Training Loss: 0.607759
+Batch: 260, Training Loss: 0.606614
+Batch: 280, Training Loss: 0.609034
+Batch: 300, Training Loss: 0.606954
+Batch: 320, Training Loss: 0.603751
+Epoch: 23 	Training Loss: 0.600595 	Validation Loss: 0.348372
+Valid Accuracy: 88.263% (737.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.513609
+Batch: 40, Training Loss: 0.525270
+Batch: 60, Training Loss: 0.569151
+Batch: 80, Training Loss: 0.590562
+Batch: 100, Training Loss: 0.592300
+Batch: 120, Training Loss: 0.611937
+Batch: 140, Training Loss: 0.599473
+Batch: 160, Training Loss: 0.602508
+Batch: 180, Training Loss: 0.602530
+Batch: 200, Training Loss: 0.603368
+Batch: 220, Training Loss: 0.603853
+Batch: 240, Training Loss: 0.603479
+Batch: 260, Training Loss: 0.603388
+Batch: 280, Training Loss: 0.608095
+Batch: 300, Training Loss: 0.607129
+Batch: 320, Training Loss: 0.609490
+Epoch: 24 	Training Loss: 0.608942 	Validation Loss: 0.347055
+Valid Accuracy: 88.503% (739.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.650410
+Batch: 40, Training Loss: 0.612903
+Batch: 60, Training Loss: 0.599091
+Batch: 80, Training Loss: 0.592741
+Batch: 100, Training Loss: 0.604546
+Batch: 120, Training Loss: 0.602520
+Batch: 140, Training Loss: 0.606272
+Batch: 160, Training Loss: 0.606412
+Batch: 180, Training Loss: 0.600916
+Batch: 200, Training Loss: 0.598890
+Batch: 220, Training Loss: 0.601598
+Batch: 240, Training Loss: 0.603133
+Batch: 260, Training Loss: 0.607758
+Batch: 280, Training Loss: 0.603021
+Batch: 300, Training Loss: 0.602882
+Batch: 320, Training Loss: 0.615084
+Epoch: 25 	Training Loss: 0.613621 	Validation Loss: 0.357741
+Valid Accuracy: 88.263% (737.0/835.0)
+
+
+Batch: 20, Training Loss: 0.626648
+Batch: 40, Training Loss: 0.630456
+Batch: 60, Training Loss: 0.631245
+Batch: 80, Training Loss: 0.613989
+Batch: 100, Training Loss: 0.597829
+Batch: 120, Training Loss: 0.600841
+Batch: 140, Training Loss: 0.607280
+Batch: 160, Training Loss: 0.602416
+Batch: 180, Training Loss: 0.607235
+Batch: 200, Training Loss: 0.593583
+Batch: 220, Training Loss: 0.590587
+Batch: 240, Training Loss: 0.597726
+Batch: 260, Training Loss: 0.599092
+Batch: 280, Training Loss: 0.596047
+Batch: 300, Training Loss: 0.593772
+Batch: 320, Training Loss: 0.594104
+Epoch    25: reducing learning rate of group 0 to 2.3437e-03.
+Epoch: 26 	Training Loss: 0.590431 	Validation Loss: 0.354812
+Valid Accuracy: 88.383% (738.0/835.0)
+
+
+Batch: 20, Training Loss: 0.540748
+Batch: 40, Training Loss: 0.581721
+Batch: 60, Training Loss: 0.635088
+Batch: 80, Training Loss: 0.607502
+Batch: 100, Training Loss: 0.596635
+Batch: 120, Training Loss: 0.610723
+Batch: 140, Training Loss: 0.615666
+Batch: 160, Training Loss: 0.622488
+Batch: 180, Training Loss: 0.622984
+Batch: 200, Training Loss: 0.617690
+Batch: 220, Training Loss: 0.619872
+Batch: 240, Training Loss: 0.615864
+Batch: 260, Training Loss: 0.617289
+Batch: 280, Training Loss: 0.623112
+Batch: 300, Training Loss: 0.621532
+Batch: 320, Training Loss: 0.623908
+Epoch: 27 	Training Loss: 0.624463 	Validation Loss: 0.349063
+Valid Accuracy: 88.623% (740.0/835.0)
+
+
+Batch: 20, Training Loss: 0.618372
+Batch: 40, Training Loss: 0.642560
+Batch: 60, Training Loss: 0.638117
+Batch: 80, Training Loss: 0.637567
+Batch: 100, Training Loss: 0.620619
+Batch: 120, Training Loss: 0.631223
+Batch: 140, Training Loss: 0.616342
+Batch: 160, Training Loss: 0.628238
+Batch: 180, Training Loss: 0.621003
+Batch: 200, Training Loss: 0.613151
+Batch: 220, Training Loss: 0.618712
+Batch: 240, Training Loss: 0.613243
+Batch: 260, Training Loss: 0.615484
+Batch: 280, Training Loss: 0.612640
+Batch: 300, Training Loss: 0.609162
+Batch: 320, Training Loss: 0.609903
+Epoch: 28 	Training Loss: 0.611167 	Validation Loss: 0.343584
+Valid Accuracy: 87.904% (734.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.609969
+Batch: 40, Training Loss: 0.605537
+Batch: 60, Training Loss: 0.604028
+Batch: 80, Training Loss: 0.612578
+Batch: 100, Training Loss: 0.606857
+Batch: 120, Training Loss: 0.607280
+Batch: 140, Training Loss: 0.608661
+Batch: 160, Training Loss: 0.605428
+Batch: 180, Training Loss: 0.594468
+Batch: 200, Training Loss: 0.597270
+Batch: 220, Training Loss: 0.601063
+Batch: 240, Training Loss: 0.605343
+Batch: 260, Training Loss: 0.607194
+Batch: 280, Training Loss: 0.603967
+Batch: 300, Training Loss: 0.606796
+Batch: 320, Training Loss: 0.606066
+Epoch: 29 	Training Loss: 0.604439 	Validation Loss: 0.347775
+Valid Accuracy: 88.383% (738.0/835.0)
+
+
+Batch: 20, Training Loss: 0.480616
+Batch: 40, Training Loss: 0.545604
+Batch: 60, Training Loss: 0.549869
+Batch: 80, Training Loss: 0.557448
+Batch: 100, Training Loss: 0.547192
+Batch: 120, Training Loss: 0.564422
+Batch: 140, Training Loss: 0.576462
+Batch: 160, Training Loss: 0.577514
+Batch: 180, Training Loss: 0.584106
+Batch: 200, Training Loss: 0.583862
+Batch: 220, Training Loss: 0.578148
+Batch: 240, Training Loss: 0.579921
+Batch: 260, Training Loss: 0.581450
+Batch: 280, Training Loss: 0.585734
+Batch: 300, Training Loss: 0.588537
+Batch: 320, Training Loss: 0.591809
+Epoch    29: reducing learning rate of group 0 to 1.1719e-03.
+Epoch: 30 	Training Loss: 0.593382 	Validation Loss: 0.345893
+Valid Accuracy: 88.503% (739.0/835.0)
+
+
+Batch: 20, Training Loss: 0.627331
+Batch: 40, Training Loss: 0.577865
+Batch: 60, Training Loss: 0.579094
+Batch: 80, Training Loss: 0.577682
+Batch: 100, Training Loss: 0.594982
+Batch: 120, Training Loss: 0.575593
+Batch: 140, Training Loss: 0.592842
+Batch: 160, Training Loss: 0.589860
+Batch: 180, Training Loss: 0.579556
+Batch: 200, Training Loss: 0.586921
+Batch: 220, Training Loss: 0.595524
+Batch: 240, Training Loss: 0.595629
+Batch: 260, Training Loss: 0.597505
+Batch: 280, Training Loss: 0.598423
+Batch: 300, Training Loss: 0.597911
+Batch: 320, Training Loss: 0.600788
+Epoch: 31 	Training Loss: 0.598533 	Validation Loss: 0.351771
+Valid Accuracy: 88.743% (741.0/835.0)
+
+
+Batch: 20, Training Loss: 0.546981
+Batch: 40, Training Loss: 0.627711
+Batch: 60, Training Loss: 0.631746
+Batch: 80, Training Loss: 0.626851
+Batch: 100, Training Loss: 0.613243
+Batch: 120, Training Loss: 0.606990
+Batch: 140, Training Loss: 0.611283
+Batch: 160, Training Loss: 0.618473
+Batch: 180, Training Loss: 0.625475
+Batch: 200, Training Loss: 0.614602
+Batch: 220, Training Loss: 0.613536
+Batch: 240, Training Loss: 0.609971
+Batch: 260, Training Loss: 0.605937
+Batch: 280, Training Loss: 0.604658
+Batch: 300, Training Loss: 0.604842
+Batch: 320, Training Loss: 0.605820
+Epoch    31: reducing learning rate of group 0 to 5.8594e-04.
+Epoch: 32 	Training Loss: 0.606387 	Validation Loss: 0.350685
+Valid Accuracy: 88.623% (740.0/835.0)
+
+
+Batch: 20, Training Loss: 0.575717
+Batch: 40, Training Loss: 0.569849
+Batch: 60, Training Loss: 0.595617
+Batch: 80, Training Loss: 0.620263
+Batch: 100, Training Loss: 0.613430
+Batch: 120, Training Loss: 0.621522
+Batch: 140, Training Loss: 0.612507
+Batch: 160, Training Loss: 0.604183
+Batch: 180, Training Loss: 0.604657
+Batch: 200, Training Loss: 0.610755
+Batch: 220, Training Loss: 0.605813
+Batch: 240, Training Loss: 0.599188
+Batch: 260, Training Loss: 0.599493
+Batch: 280, Training Loss: 0.596300
+Batch: 300, Training Loss: 0.595866
+Batch: 320, Training Loss: 0.594646
+Epoch: 33 	Training Loss: 0.594419 	Validation Loss: 0.346192
+Valid Accuracy: 87.784% (733.0/835.0)
+
+
+Batch: 20, Training Loss: 0.499060
+Batch: 40, Training Loss: 0.572281
+Batch: 60, Training Loss: 0.615401
+Batch: 80, Training Loss: 0.621994
+Batch: 100, Training Loss: 0.608289
+Batch: 120, Training Loss: 0.592559
+Batch: 140, Training Loss: 0.600625
+Batch: 160, Training Loss: 0.602578
+Batch: 180, Training Loss: 0.596390
+Batch: 200, Training Loss: 0.587130
+Batch: 220, Training Loss: 0.595330
+Batch: 240, Training Loss: 0.598498
+Batch: 260, Training Loss: 0.598916
+Batch: 280, Training Loss: 0.599085
+Batch: 300, Training Loss: 0.592195
+Batch: 320, Training Loss: 0.596652
+Epoch    33: reducing learning rate of group 0 to 2.9297e-04.
+Epoch: 34 	Training Loss: 0.597514 	Validation Loss: 0.359619
+Valid Accuracy: 87.545% (731.0/835.0)
+
+
+Batch: 20, Training Loss: 0.637262
+Batch: 40, Training Loss: 0.636598
+Batch: 60, Training Loss: 0.593205
+Batch: 80, Training Loss: 0.577735
+Batch: 100, Training Loss: 0.601258
+Batch: 120, Training Loss: 0.606709
+Batch: 140, Training Loss: 0.596884
+Batch: 160, Training Loss: 0.590105
+Batch: 180, Training Loss: 0.592213
+Batch: 200, Training Loss: 0.585636
+Batch: 220, Training Loss: 0.573612
+Batch: 240, Training Loss: 0.570170
+Batch: 260, Training Loss: 0.570021
+Batch: 280, Training Loss: 0.569224
+Batch: 300, Training Loss: 0.572401
+Batch: 320, Training Loss: 0.577514
+Epoch: 35 	Training Loss: 0.576384 	Validation Loss: 0.339679
+Valid Accuracy: 88.383% (738.0/835.0)
+Saving model
+Model saved
+
+
+Batch: 20, Training Loss: 0.609593
+Batch: 40, Training Loss: 0.617343
+Batch: 60, Training Loss: 0.651923
+Batch: 80, Training Loss: 0.628293
+Batch: 100, Training Loss: 0.611857
+Batch: 120, Training Loss: 0.596506
+Batch: 140, Training Loss: 0.594414
+Batch: 160, Training Loss: 0.594371
+Batch: 180, Training Loss: 0.584702
+Batch: 200, Training Loss: 0.589460
+Batch: 220, Training Loss: 0.586047
+Batch: 240, Training Loss: 0.586230
+Batch: 260, Training Loss: 0.588662
+Batch: 280, Training Loss: 0.593105
+Batch: 300, Training Loss: 0.596087
+Batch: 320, Training Loss: 0.599022
+Epoch: 36 	Training Loss: 0.594715 	Validation Loss: 0.349375
+Valid Accuracy: 87.545% (731.0/835.0)
+
+
+Batch: 20, Training Loss: 0.578502
+Batch: 40, Training Loss: 0.566353
+Batch: 60, Training Loss: 0.558655
+Batch: 80, Training Loss: 0.582319
+Batch: 100, Training Loss: 0.585098
+Batch: 120, Training Loss: 0.585816
+Batch: 140, Training Loss: 0.580671
+Batch: 160, Training Loss: 0.574183
+Batch: 180, Training Loss: 0.574418
+Batch: 200, Training Loss: 0.572097
+Batch: 220, Training Loss: 0.569554
+Batch: 240, Training Loss: 0.569085
+Batch: 260, Training Loss: 0.572183
+Batch: 280, Training Loss: 0.577578
+Batch: 300, Training Loss: 0.586477
+Batch: 320, Training Loss: 0.579399
+Epoch    36: reducing learning rate of group 0 to 1.4648e-04.
+Epoch: 37 	Training Loss: 0.576976 	Validation Loss: 0.353012
+Valid Accuracy: 88.263% (737.0/835.0)
+
+
+Batch: 20, Training Loss: 0.738627
+Batch: 40, Training Loss: 0.669929
+Batch: 60, Training Loss: 0.631324
+Batch: 80, Training Loss: 0.619719
+Batch: 100, Training Loss: 0.632569
+Batch: 120, Training Loss: 0.648261
+Batch: 140, Training Loss: 0.617490
+Batch: 160, Training Loss: 0.621453
+Batch: 180, Training Loss: 0.620566
+Batch: 200, Training Loss: 0.610396
+Batch: 220, Training Loss: 0.611807
+Batch: 240, Training Loss: 0.619253
+Batch: 260, Training Loss: 0.623105
+Batch: 280, Training Loss: 0.622907
+Batch: 300, Training Loss: 0.622469
+Batch: 320, Training Loss: 0.618993
+Epoch: 38 	Training Loss: 0.616447 	Validation Loss: 0.355320
+Valid Accuracy: 88.144% (736.0/835.0)
+
+
+Batch: 20, Training Loss: 0.635394
+Batch: 40, Training Loss: 0.613402
+Training interrupted.
