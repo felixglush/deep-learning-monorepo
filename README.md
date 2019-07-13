@@ -10,5 +10,5 @@ These are the projects submitted for review.
 5. [TODO] Sentiment analysis model deployment
 
 # Other projects
-1. Style transfer (Deep Dream)
+1. Image style transfer
 2. Melanoma detection
