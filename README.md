@@ -3,12 +3,13 @@ Mono repository for Udacity's Deep Learning Nanodegree projects
 
 # Projects
 These are the projects submitted for review.
-1. [DONE] Bike sharing demand prediction
-2. [DONE] Dog breed classification
-3. [TODO] Movie script generation
-4. [TODO] Face generation
-5. [TODO] Sentiment analysis model deployment
+1. [done] Bike sharing demand prediction
+2. [done] Dog breed classification
+3. [todo] Movie script generation
+4. [todo] Face generation
+5. [todo] Sentiment analysis model deployment
 
 # Other projects
-1. Image style transfer
-2. Melanoma detection
+These range from small guided projects demonstrating certain techniques (e.g. style transfer) to larger self guided projects (melanoma detection)
+1. [done] Image style transfer mini lab
+2. [wip] Melanoma detection
