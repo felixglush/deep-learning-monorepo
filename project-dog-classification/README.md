@@ -7,62 +7,14 @@
 
 ## Project Overview
 
-Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
 ![Sample Output][image1]
 
 Along with exploring state-of-the-art CNN models for classification and localization, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
 
+## Results
+I trained a CNN from randomly initialized weights. Training this model from scratch was a highly iterative process. I started with just 5 convolution layers, 5 max pooling layers, and 3 dense layers with dropout at 0.25. It learned extremely slowly with loss decreasing by the thousandths and tens of thousandths, no matter what learning rate I chose or how many convolution layers I added. This led me to do some reading and I found the paper [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf) by Sergey Ioffe and Christian Szegedy. They found that by normalizing the output of convolutional layers they were able to stabilize gradient flow through the network thereby accelerating a networks's learning. 
 
-## Project Instructions
+Using this information, my next network consisted of 8 convolutional layers, each followed by batch normalization, ReLU, and 5 max pooling layers after certain convolution layers, and 3 fully connected layers. Dropout was initially set to p=0 and learning rate was set to 0.25, both the low dropout and high LR were allowed by the use of batch normalization. Compared to the previous networks, this networks's loss decreased by the tenths after each minibatch. As training progressed and the rate of validation loss decrease began to plateau, I lowered the LR by half. Furthermore, as training loss approached validation loss, I also slowly increased dropout until p=0.4. This protocol was followed for 42 epoch with the lowest validation loss recorded at epoch 40. This model reached 27% test accuracy. I suspect better accuracy could be achieved by conducting more experiments to find a good initial learning rate, intermittently increasing LR to find better minimums, adding convolutional layers, and simply letting the model train for more than 42 epochs.
 
-### Instructions
-
-1. Clone the repository and navigate to the downloaded folder.
-	
-	```	
-		git clone https://github.com/udacity/deep-learning-v2-pytorch.git
-		cd deep-learning-v2-pytorch/project-dog-classification
-	```
-	
-__NOTE:__ if you are using the Udacity workspace, you *DO NOT* need to re-download the datasets in steps 2 and 3 - they can be found in the `/data` folder as noted within the workspace Jupyter notebook.
-
-2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`.  The `dogImages/` folder should contain 133 folders, each corresponding to a different dog breed.
-3. Download the [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz).  Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`.  If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
-4. Make sure you have already installed the necessary Python packages according to the README in the program repository.
-5. Open a terminal window and navigate to the project folder. Open the notebook and follow the instructions.
-	
-	```
-		jupyter notebook dog_app.ipynb
-	```
-
-__NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
-
-__NOTE:__ In the notebook, you will need to train CNNs in PyTorch.  If your CNN is taking too long to train, feel free to pursue one of the options under the section __Accelerating the Training Process__ below.
-
-
-
-## (Optionally) Accelerating the Training Process 
-
-If your code is taking too long to run, you will need to either reduce the complexity of your chosen CNN architecture or switch to running your code on a GPU.  If you'd like to use a GPU, you can spin up an instance of your own:
-
-#### Amazon Web Services
-
-You can use Amazon Web Services to launch an EC2 GPU instance. (This costs money, but enrolled students should see a coupon code in their student `resources`.)
-
-## Evaluation
-
-Your project will be reviewed by a Udacity reviewer against the CNN project rubric.  Review this rubric thoroughly and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
-
-
-## Project Submission
-
-Your submission should consist of the github link to your repository.  Your repository should contain:
-- The `dog_app.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
-- An HTML or PDF export of the project notebook with the name `report.html` or `report.pdf`.
-
-Please do __NOT__ include any of the project data sets provided in the `dogImages/` or `lfw/` folders.
-
-### Ready to submit your project?
-
-Click on the "Submit Project" button in the classroom and follow the instructions to submit!
