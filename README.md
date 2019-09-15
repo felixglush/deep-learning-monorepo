@@ -6,7 +6,7 @@ These are the projects submitted for review.
 1. [done] [Bike sharing demand prediction](https://github.com/felixglush/deep-learning-monorepo/tree/master/project-bikesharing)
 2. [done] [Dog breed classification](https://github.com/felixglush/deep-learning-monorepo/tree/master/project-dog-classification)
 3. [done] [Movie script generation](https://github.com/felixglush/deep-learning-monorepo/tree/master/project-tv-script-generation)
-4. [done] [Face generation] (https://github.com/felixglush/deep-learning-monorepo/tree/master/project-face-generation)
+4. [done] [Face generation](https://github.com/felixglush/deep-learning-monorepo/tree/master/project-face-generation)
 5. [todo] Sentiment analysis model deployment
 
 # Other projects
