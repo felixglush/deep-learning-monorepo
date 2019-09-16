@@ -1,5 +1,6 @@
 project-dog-classification/lfw/
 project-dog-classification/dogImages/
+project-face-generation/processed_celeba_small/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
