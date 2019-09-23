@@ -1,18 +1,3 @@
-[//]: # (Image References)
-
-[image1]: ./images/sample_dog_output.png "Sample Output"
-[image2]: ./images/vgg16_model.png "VGG-16 Model Layers"
-[image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
-
-
-## Project Overview
-
-In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
-
-![Sample Output][image1]
-
-Along with exploring state-of-the-art CNN models for classification and localization, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
-
 ## Results
 I trained a CNN from randomly initialized weights. Training this model from scratch was a highly iterative process. I started with just 5 convolution layers, 5 max pooling layers, and 3 dense layers with dropout at 0.25. It learned extremely slowly with loss decreasing by the thousandths and tens of thousandths, no matter what learning rate I chose or how many convolution layers I added. This led me to do some reading and I found the paper [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf) by Sergey Ioffe and Christian Szegedy. They found that by normalizing the output of convolutional layers they were able to stabilize gradient flow through the network thereby accelerating a networks's learning. 
 
