@@ -7,7 +7,7 @@ These are the projects submitted for review.
 2. [done] [Dog breed classification](https://github.com/felixglush/deep-learning-monorepo/tree/master/project-dog-classification)
 3. [done] [Movie script generation](https://github.com/felixglush/deep-learning-monorepo/tree/master/project-tv-script-generation)
 4. [done] [Face generation](https://github.com/felixglush/deep-learning-monorepo/tree/master/project-face-generation)
-5. [todo] Sentiment analysis model deployment
+5. [done] Sentiment analysis model deployment
 
 # Other projects
 These range from small guided projects demonstrating certain techniques (e.g. style transfer) to larger self guided projects (melanoma detection)
